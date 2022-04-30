@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(FCC.jpeg);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  font-size: 16px;
+  color: #eaeaea;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+#title {
+  margin-bottom: 0;
+  padding: 0px;
+  font-weight: normal;
+}
+#description {
+  margin: 0;
+  font-style: italic;
+  padding-bottom: 24px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+form {
+  padding: 30px 30px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background: #262743;
+  color: #eaeaea;
+  border-radius: 5px;
+}
+label {
+  padding: 6px 0;
+}
+input {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.parentheses {
+  font-size: 10px;
+}
+
+.dropdown {
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-bottom: 32px;
+  color: #757575;
+}
+
+#radio-container {
+  margin-bottom: 32px;
+}
+.radio-span {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: -8px;
+}
+input[type="radio"] {
+  margin: 0;
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+#check-container {
+  margin: 0;
+  margin-bottom: 32px;
+}
+.check-span {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: -8px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  margin-right: 8px;
+  padding: 0;
+}
+
+textarea {
+  margin-bottom: 40px;
+  height: 150px;
+  font-size: 14px;
+  padding: 16px;
+  border: none;
+}
+
+#submit {
+  background-color: #39ad66;
+  color: #eaeaea;
+}
